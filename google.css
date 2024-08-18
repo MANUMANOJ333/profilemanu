@@ -1,0 +1,42 @@
+/* fake google */
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font-size:13px ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#container{
+width:580px;
+margin:0 auto;
+text-align: center;
+
+}
+h1#logo{
+    height:292px;
+    width:92px;
+    background:url('C:\Users\manoj\Desktop\css\job.jpg')top left no-repeat
+    background-size:100%;
+    margin:0 auto;
+}
+input[type="search"]{
+    width:570px;
+    height:40px;
+    padding:10px;
+    display:block;
+}
+nav#header{
+    text-align: right;
+    padding:20px;
+}
+nav#header ul li{
+    display:inline
+}
+nav#header ul li a :link,
+    nav#header ul li a:visited{
+        color:#555;
+        text-decoration: none;
+        padding: 10px;
+    }
+}

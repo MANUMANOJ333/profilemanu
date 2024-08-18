@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>template html</title>
+    <style>
+        .container{
+            display:grid;
+            grid-gap: 1rem;
+            grid-template-areas: 'navbar navbar navbar navbar'
+            'section section aside aside'
+            'footer footer footer footer';
+        }
+        .item{
+            background-color: bisque;
+            border:2px solid black;
+        }
+        #navbar{
+            grid-area: navbar;
+        }
+        #section{
+            grid-area: section;
+        }
+        #aside{
+            grid-area: aside;
+        }
+        #footer{
+            grid-area: footer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item" id="navbar">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum laborum quam ipsa et fuga porro dignissimos officia laudantium sunt corrupti.</div>
+        <div class="item" id="section">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt nihil autem ex dolore error accusantium sequi, fuga perferendis aliquam at?</div>
+<div class="item" id="aside">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo quisquam quas deserunt maiores blanditiis a quis eius nulla illo aliquam! Impedit, obcaecati accusantium nesciunt, consectetur numquam magnam optio facilis dolorem mollitia harum voluptatum dolor consequatur. Libero nobis numquam voluptas nemo voluptates. Error ea impedit alias. Corporis aut enim molestias vitae alias minus. Obcaecati saepe dignissimos vero aut beatae, rem numquam eveniet exercitationem aperiam dolor at quas! Dicta sed facilis expedita eius corrupti tempore inventore doloribus cum accusantium possimus, ipsam consequatur animi fugiat illum earum reprehenderit harum! Eius magni exercitationem at nam deleniti, molestiae ea labore laboriosam? Earum corrupti corporis dolor. </div>
+<div class="item" id="footer">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi eveniet tempore aliquid, non amet obcaecati? Temporibus quasi quia sequi ullam.</div> 
+   </div>
+</body>
+</html>

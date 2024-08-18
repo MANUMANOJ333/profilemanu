@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+   
+<head>
+    <meta charset="utf-8">
+    <title>
+        How to take array input using JavaScript 
+    </title>
+</head>
+   
+<body style="text-align: center;">
+<input type="text" name="txtval[]" value="" />
+<input type="button" value="add" onclick="showdata();" />
+<div id ='display'>
+</div>
+ 
+<script type="text/javascript">
+ 
+function showdata()
+{
+        var content="<b>New Array :</b><br>";
+var input = document.getElementsByName('txtval[]');
+           
+            for (var x = 0; x < input.length; x++) 
+            {
+                var a = input[x];
+                content = content + "myarray[" + x + "].value= "+ a.value + "<br> ";   
+              }
+              
+              document.getElementById('display').innerHTML = content+"</b>";
+}
+ 
+</script>
+<script>
+
+
+            let array = [];
+            const BtnAdd = document.querySelector(".btn-add");
+            const para = document.getElementById("para");
+
+            BtnAdd.addEventListener("click", AddNew);
+
+            function add_field() {
+                var myParent = para;
+                var inputList = document.createElement("input");
+                inputList.setAttribute('class', 'InputField');
+                inputList.setAttribute('id', 'InputField');
+                myParent.appendChild(inputList);
+            };
+        </script>
+ 
+</body>
+</html>

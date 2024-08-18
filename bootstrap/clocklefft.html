@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>clockleft</title>
+   <style>
+    div{
+        display: inline-block;
+    }
+   </style>
+</head>
+<body>
+  <div id="days">00</div>
+  <div id="hours">00</div>
+  <div id="minutes">00</div>
+  <div id="second">00</div>
+    <script type="text/javascript">
+        const countDate = new Date('dec 1 ,2022 00:00:00').getTime();
+         function newYear(){
+            const now = new Date().getTime();
+            gap = countDate - now;
+
+            const second = 1000;
+            const minute = second*60;
+            const hour = minute*60;
+            const day=hour*24;
+
+            const days = Math.floor(gap/(days));
+            const hours = Math.floor((gap % (days))/(hour));
+            const minutes = Math.floor((gap % (hour))/(minute));
+            const seconds = Math.floor((gap % (minute))/(second));
+
+        
+
+document.getElementById("days")[0].innerHtml=days;
+document.getElementById("hours")[0].innerHtml=hours;
+document.getElementById("minutes")[0].innerHtml=minutes;
+document.getElementById("seconds")[0].innerHtml= seconds;
+         
+    }
+    setInterval(function(){
+    newYear()
+
+    },1000);
+        
+
+    </script>
+</body>
+</html>

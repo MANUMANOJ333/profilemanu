@@ -1,0 +1,12 @@
+class student {
+    int id;
+    variable
+    String name;
+    public static void main(String arg[]){
+        Student s1=new student();
+        object of Student 
+        system.out.print(s1.id);
+        member through reference variable
+        system.out.println(s1.name);
+    }
+}

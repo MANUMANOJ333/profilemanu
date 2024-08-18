@@ -1,0 +1,20 @@
+.bgimg2{
+    width:100%;
+    padding-top: 55%;
+    background:url(lion.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.bgimg2 span{
+    color:rgb(221, 76, 76);
+    font-size: 3vw;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    text-transform: uppercase;
+    background: transparent;
+    padding:10px;
+    top:30%;
+    left:20%;
+    position: relative;
+}

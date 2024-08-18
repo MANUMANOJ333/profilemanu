@@ -1,0 +1,164 @@
+body{
+    background-color: aqua;
+    color:#333;
+}
+h1{
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2{
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+p{
+    font-size: 18px;
+    font-family: italic;
+}
+ol{
+    margin: 20px;
+    padding: 20px;
+    color: white;
+}
+
+/* styles for descendent selectors lecture */
+.primary-box{
+    background-color: white;
+    border:solid 10px #333;
+    padding:20px;
+    text-align: center;
+}
+.secondary-box{
+    background-color: #333;
+    color: #fc3;
+    padding:10px;
+    text-align:center;
+}
+
+/* style for grpouping selectors */
+#main container{
+    width:960px;
+    margin:0 auto;
+}
+.primary-box, .secondary-box{
+    margin: 30px 20px;
+}
+h1,h2,h3,h4,h5,h6{
+    text-align: center;
+    border-bottom:solid 3px red;
+    padding:0 0 10px
+}
+/* my job application*/
+article{
+    text-align: center;
+    color:pink;
+}
+body{
+    text-align: center;
+    color:blue;
+}
+/* styling links*/
+#styling link #container{
+    background-color: white;
+    text-align: center;
+    margin: 640px;
+    border: #333;
+    padding: 0 40px;
+
+}
+/* styling forms*/
+body{
+    background-image: url("job.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+#container{
+width:100%;
+height:100%;
+margin:auto;
+
+}
+fieldset{
+    padding:100px;
+    border:rgb(154, 145, 119);
+    background:rgb(185, 61, 61);
+    position: relative;
+}
+
+    feildset legend{
+        background:white;
+        padding:20px;
+        border:solid 1px #aaa;
+        justify-content: center;
+        display: flex;
+
+    }
+
+input[type="text"]
+input[type="phone"]
+input[type="email"]
+textarea{
+    padding:10px;
+    border:solid 1px #454545;
+    display:black;
+    width:50%;
+    font-size:14px;
+    color:#777;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+/* style float*/
+#float{
+    background: #aaa;
+}
+#float #container{
+    background: #fc3;
+    padding:20px;
+
+}
+#job1{
+    float :left;
+}
+ #sidebar{
+    float:right;
+    width:800px;
+    background: #fc3;
+}
+#columnbar{
+    float:left;
+    width:600px;
+    background: #777;
+}
+#footer{
+    color:black;
+    margin:20px;
+
+}
+/* trux web*/
+
+ #sidebar{
+    float:left;
+    width:800px;
+    background: #fc3;
+    border-top-left-radius: 2px;
+}
+#columnbar{
+    float:left;
+    width:600px;
+    background: #777;
+}
+
+
+/* home*/
+*{
+    margin:0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.banner{
+    width:100%;
+    height:100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75)rgba(0,0,0,0.75),url("1home.jpg"));
+}

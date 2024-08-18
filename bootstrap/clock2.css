@@ -1,0 +1,17 @@
+body{
+    width:100%;
+    height:100vh;
+    padding:0;
+    margin:0;
+   
+}
+h1{
+    color:aqua;
+    background: black;
+}
+.countdown{
+    color:rgb(134, 81, 81);
+    position: absolute;
+    font-size: 30px;
+    display: center;
+}

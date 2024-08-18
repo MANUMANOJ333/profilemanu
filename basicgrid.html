@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css grid </title>
+    <style>
+        .container{
+        display: grid;
+        grid-template-columns: 300px 300px 300px;
+      /* grid-template-columns: 300px auto 100px;*/
+      /*grid-template-columns: 1fr 4fr 1fr;*/
+    
+    /*grid-template-rows: 1fr 1fr 4fr;*/
+      /*grid-auto-rows:2fr ;*/
+     grid-template-columns: repeat(2,1fr);
+     grid-template-rows: repeat(2,1fr);
+     grid-gap:1rem;
+        }
+      .box{
+        border:2px solid black;
+        background-color: rgb(206, 134, 206);
+        padding:20px;
+        border-radius: 30px;
+        text-align: center;
+        width:50%;
+        height:10px;
+      }
+      
+    </style>
+</head>
+<body>
+    <div class="container">
+       <label class="box">name</label>
+       <input type="text" class="name"><br>
+       <label class="box">last name</label>
+       <input type="text" class="last name"><br>
+       <label class="box">date of birth</label>
+       <input type="text" class="date of birth"><br>
+       <label class="box"> gender</label>
+       <input type="text" class="gender"><br>
+       <label class="box">nationality</label>
+       <input type="text" class="nationality"><br>
+       <label class="box">gamil</label>
+       <input type="text" class="gmail"><br>
+       <label class="box">date</label>
+       <input type="text" class="date"><br>
+       <label class="box">address</label>
+       <input type="text" class="address"><br>
+       <label class="box">hobbies</label>
+       <input type="text" class="hobbies"><br>
+    </div>
+</body>
+</html>

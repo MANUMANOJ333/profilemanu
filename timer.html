@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>timer</title>
+</head>
+<body>
+    <div class="container">timer for js</div>
+    <script type="text/javscript">
+        function countdown(secs,elem){
+            var element= document.getElementById(elem);
+            element.innerHtml="please wait for"+secs+"seconds";
+
+            secs--;;
+            var timer=setTimeout('countDown('+secs+',"'+element+'")',1000);
+        }
+    </script>
+    <div id="status">
+    </div>
+    <script type="txt/javscipt">countdown(10,"status");
+        
+    </script>
+</body>
+</html>

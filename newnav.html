@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>new nav web</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+        }
+        html{
+            scroll-behavior: smooth;
+            font-family: initial;
+        }
+        h1{
+            text-align: center;
+            position: fixed;
+            top:0;
+            left:35%;
+            color:rgb(182, 88, 88);
+        }
+        ul{
+            list-style: none;
+            height:100%;
+            width:100%;
+            position: fixed;
+            top:0;
+            left:0;
+            background: aqua;
+            box-shadow: 2px 0px 5px black;
+        }
+        ul li{
+            margin:5px;
+            padding:5px;
+            margin-top:75px;
+        }
+        ul li a {
+            color:blue;
+            text-decoration: none;
+            font-size: 20px;
+            padding:5px;
+        }
+        ul li a:hover{
+            background: white;
+            color:green;
+        }
+        content{
+            height:100vh;
+            width:100vw;
+            display:flex;
+            align-items:center;
+            justify-content:center;
+            text-transform: uppercase;
+        }
+        #section1{
+            background: linear-gradient(-45deg ,white 30%,yellow 0%);
+        }
+    </style>
+</head>
+<body>
+    <h1>new navigation web</h1>
+    <ul>
+        <li><a href="section1">section 1</a></li>
+        <li><a href="section2">section 2</a></li>
+        <li><a href="section3">section 3</a></li>
+        <li><a href="section4">section 4</a></li>
+    </ul>
+    <div class="content">
+        <section id="section1">
+            <h2>section 1</h2>
+        </section>
+        <section id="section2">
+            <h2>section 2</h2>
+        </section>
+        <section id="section3">
+            <h2>section 3</h2>
+        </section>
+        <section id="section4">
+            <h2>section 4</h2>
+        </section>
+    </div>
+</body>
+</html>

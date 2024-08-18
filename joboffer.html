@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my applicaion</title>
+    <style>
+        .conatainer{
+            color:blue;
+            font-size: 20px;
+            font-family: 'Times New Roman', Times, serif;
+            font-style: italic;
+            width:100%;
+            height:100vh;
+            color:rgb(228, 84, 84);
+            
+            margin:30px;
+            padding:20px;
+        }
+        body{
+            
+            justify-content: center;
+            background-image: url(job.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size:cover;
+            position:relative;
+            background-attachment: fixed;
+            background-size: 100%;
+            width:80%;
+            margin: 50px;
+            height:600px;
+            border: 2px solid rgb(103, 90, 90);
+            padding: 50px;
+            text-align: center;
+        }
+        label{
+            height:100px;
+            margin:30px;
+            padding:40px;
+        }
+        input{
+            margin:10px;
+            justify-content: center;
+        }
+        @media (max-width:500px){
+            h1{
+                display: block;
+            }
+            img{
+                display: flex;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="conatainer">
+        
+        <h1>job application</h1>
+        <label for="name">Name</label>
+        <input type="text" id="fname"><br>
+        <span>
+        <label for="name">last name</label>
+        <input type="text" id="last name"><br></span>
+        <span>
+        <label for="name">gender</label>
+        <input type="text" id="gender"><br></span>
+        
+        <label for="name">email</label>
+        <input type="text" id="email"><br>
+        <label for="name">date</label>
+        <input type="text" id="date"><br>
+        <label for="name">Nationality</label>
+        <input type="text" id="nationality"><br>
+        <label for="name">qualification</label>
+        <input type="text" id="qualification"><br>
+        <label for="name">father name</label>
+        <input type="text" id="father name"><br> 
+        <label for="name">mother name</label>
+        <input type="text" id="mother name"><br> 
+        <label for="name">address</label>
+        <input type="text" id="address"><br>
+
+    </div>
+    
+</body>
+</html>

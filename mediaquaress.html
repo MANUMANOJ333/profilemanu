@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mediaquaress</title>
+    <style>
+        .container{
+            display:grid;
+            grid-gap: 1rem;
+            
+        @media only screen and (max-width:300px){
+            body{
+                background-color: red;
+            }
+        }
+        @media only screen and (min-width:300px)and(max-width:500px){
+            body{
+                background-color: blue;
+            }
+            
+        }
+        @media(min-width:500px)and(max-width:800px){
+            body{
+                background-color: yellow;
+            }
+           
+        }
+        @media (min-width:800px){
+            body{
+                background-color: green;
+            }
+            
+        }
+        .bdr{
+            border:3px solid blue;
+            padding:50px;
+            background-color:grey;
+        }
+        
+    </style>
+</head>
+<body>
+   <div class="container"> 
+   <nav class="bdr">
+    <span>home</span>
+    <span>about</span>
+    <span>services</span>
+    <span>contact us</span>
+</nav>
+<section class="bdr">
+<h2>learn css in hindi</h2>
+</section>
+<aside class="bdr"><h1>more about us
+    </h1>
+</aside>
+</div>
+
+</body>
+</html>
